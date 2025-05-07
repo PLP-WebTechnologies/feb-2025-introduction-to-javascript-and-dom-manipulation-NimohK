@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description" content="A simple interactive JavaScript example."/>
+  <meta name="author" content="Catherine Wambu"/>
+  <title>Week Five Assignment</title>
+  <style>
+    .highlight {
+      color: white;
+      background-color: #007BFF;
+      padding: 5px;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1 id="main-title">Welcome to My Page!</h1>
+  </header>
+
+  <section>
+    <p id="intro-text">This is an interactive JavaScript example.</p>
+    <button onclick="changeText()">Change Text</button>
+    <button onclick="changeStyle()">Change Style</button>
+  </section>
+
+  <section>
+    <h2>Dynamic List</h2>
+    <ul id="dynamic-list"></ul>
+    <button onclick="addItem()">Add Item</button>
+    <button onclick="removeItem()">Remove Item</button>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Catherine Wambu</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
